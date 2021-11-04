@@ -1,11 +1,13 @@
 header {
         background-color: #E5E5E5;
         align-items: center;
+        text-align: center;
     } 
 #titulo {
     text-align: center;
     background-color: #c4c4c4;
     font-family: "Times New Roman";
+    color: #005677;
 }
 .subtitulo {
     background-color: #c4c4c4;
