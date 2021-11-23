@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #header1 {
     background-color: #1CD1B0;
 }
@@ -30,19 +35,10 @@
     flex-direction: column;
     align-items: center;
 }
-#name ,#email ,#password ,#pais {
+#name ,#password {
     width: 620px;
     height: 30px;
     margin-bottom: 10px ;
-}
-#reset {
-    text-align: center;
-    background-color: #888888;
-    color: white;
-    font-size: 24px;
-    border-radius: 40px;
-    width: 200px;
-    height: 54px;
 }
 #enviar {
     text-align: center;
@@ -50,12 +46,16 @@
     color: black;
     font-size: 24px;
     border-radius: 40px;
-    width: 200px;
-    height: 54px;
+    width: 600px;
+    height: 45px;
 }
 footer {
     background-color: #00669F;
     display: flex;
     justify-content: center;
     color: white;
+    position:absolute;
+    bottom:0;
+    width: 100%
+
 }
